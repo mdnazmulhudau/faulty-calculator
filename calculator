@@ -1,0 +1,20 @@
+number1 = int(input("Enter  your  First  number: "))
+oparetor = input("Chose your Oparetor(+,-,*,/,%: ")
+number2 = int(input("Enter  your Secoend Number: "))
+
+if 45 == number1 and '*' == oparetor and 3 == number2:
+    print(555)
+elif 56 == number1 and '+' == oparetor and 9 == number2:
+    print(77)
+elif 56 == number1 and '/' == oparetor and 6 == number2:
+    print(4)
+elif oparetor == '+':
+    print(number1+number2)
+elif oparetor == '-':
+    print(number1-number2)
+elif oparetor == '*':
+    print(number1*number2)
+elif oparetor == '/':
+    print(number1/number2)
+elif oparetor == '%':
+    print(number1%number2)
